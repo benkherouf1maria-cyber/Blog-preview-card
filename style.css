@@ -32,7 +32,7 @@ body{
    background-color: hsl(0, 0%, 100%);
    border-radius: 20px;
    border: 1px solid black;
-   width: min-content;
+   width: fit-content;
    max-width: 384px;
    min-width: 327px;
    box-shadow: 8px 8px #111111;
@@ -73,7 +73,7 @@ margin-bottom:12px;
   background-color: hsl(47, 88%, 63%);
   font-weight:800;
   color: #121212;
-  font-size:clamp(0.75rem ,2vw ,0.875rem);
+  font-size:clamp(0.75rem ,1.5vw ,0.875rem);
   
 }
 
@@ -81,7 +81,7 @@ margin-bottom:12px;
   
   color: #121212;
   font-weight:500;
-  font-size:clamp(0.75rem ,2vw ,0.875rem);
+  font-size:clamp(0.75rem ,1.5vw ,0.875rem);
  
 }
 
@@ -92,7 +92,7 @@ a{
 .title{
   font-weight:800;
   color: #121212;
-  font-size:clamp(1.250rem ,2vw ,1.5rem);
+  font-size:clamp(1.250rem ,1.5vw ,1.5rem);
 }
 
 .title:hover{
@@ -102,7 +102,7 @@ a{
 
 .description{
   margin-bottom: 0px;
-  font-size:clamp(0.875rem ,2vw ,1rem);
+  font-size:clamp(0.875rem ,1.5vw ,1rem);
   color: hsl(0, 0%, 42%);
   font-weight:500;
   
@@ -131,7 +131,7 @@ a{
 .author p{
   display:inline-block;
   font-weight:800;
-  font-size:clamp(0.75rem ,13vw ,0.875rem);
+  font-size:0.875rem;
   
 
 }
