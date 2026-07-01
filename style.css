@@ -7,19 +7,24 @@
     font-style: normal;
 }
 
-body{
+*{
     box-sizing: border-box;
-    background-color: hsl(47, 88%, 63%);
+    
+    
 }
-
+ 
+body{
+  background-color: hsl(47, 88%, 63%);
+  margin:0px;
+}
 
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    min-width: 100vh;
-    
+    min-width: 100vw;
+  
 }
 
 
@@ -27,14 +32,15 @@ body{
    background-color: hsl(0, 0%, 100%);
    border-radius: 20px;
    border: 1px solid black;
-   width: 90%;
+   width: 87.2%;
    max-width: 384px;
-   box-shadow: 8px 8px black;
-   font-family: "Figtree" ;
+   min-width: 327px;
+   box-shadow: 8px 8px #111111;
+   font-family: "Figtree" , sans-serif;
 }
 
 .card .img-contain{
-padding:24px;
+margin:24px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -44,15 +50,21 @@ align-items: center;
 .img-contain .back-illu{
   border-radius: 10px;
   width:100%;
-  max-width:fill;
+  max-width:100%;
 
 }
 
 .card .content{
-  padding:0px 24px;
-  margin-bottom:12px;
+  margin:0px 24px;
+
 }
 
+
+.content > *{
+margin:0px;
+margin-bottom:12px;
+
+}
 
 .category{
   display:inline-block;
@@ -61,35 +73,39 @@ align-items: center;
   background-color: hsl(47, 88%, 63%);
   font-weight:800;
   color: #121212;
-  font-size:14px;
+  font-size:clamp(0.75rem ,2vw ,0.875rem);
   
 }
 
 .date{
-  font-size:14px;
+  
   color: #121212;
   font-weight:500;
+  font-size:clamp(0.75rem ,2vw ,0.875rem);
+ 
+}
 
+a{
+  text-decoration: none;
 }
 
 .title{
-
   font-weight:800;
   color: #121212;
-  font-size: 24px;
-
-
+  font-size:clamp(1.250rem ,2vw ,1.5rem);
 }
 
-.title:active{
+.title:hover{
   color: hsl(47, 88%, 63%);
+
 }
 
 .description{
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size:clamp(0.875rem ,2vw ,1rem);
   color: hsl(0, 0%, 42%);
   font-weight:500;
+  
 
 }
 
@@ -100,6 +116,7 @@ align-items: center;
    height: 32px;
    display: flex;
    align-items: center;
+   
 
 }
 
@@ -114,7 +131,7 @@ align-items: center;
 .author p{
   display:inline-block;
   font-weight:800;
-  font-size:14px;
+  font-size:clamp(0.75rem ,13vw ,0.875rem);
   
 
 }
