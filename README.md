@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/benkherouf1maria-cyber/Blog-preview-card](https://github.com/benkherouf1maria-cyber/Blog-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://benkherouf1maria-cyber.github.io/Blog-preview-card/](https://benkherouf1maria-cyber.github.io/Blog-preview-card/)
 
 ## My process
 

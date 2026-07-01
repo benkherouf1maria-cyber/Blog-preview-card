@@ -32,7 +32,7 @@ body{
    background-color: hsl(0, 0%, 100%);
    border-radius: 20px;
    border: 1px solid black;
-   width: 87.2%;
+   width: min-content;
    max-width: 384px;
    min-width: 327px;
    box-shadow: 8px 8px #111111;
